@@ -1,0 +1,15 @@
+MySQL Query
+
+
+CREATE DATABASE task_two;
+
+USE task_two;
+
+CREATE TABLE users(
+	userId int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	firstname varchar(255) NOT NULL,
+	lastname varchar(255) NOT NULL,
+	address varchar(255),
+	username varchar(255) NOT NULL,
+	password varchar(255) NOT NULL
+);
